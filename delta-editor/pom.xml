@@ -272,11 +272,11 @@
 			<type>jar</type>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.jdesktop.bsaf</groupId>
 			<artifactId>bsaf</artifactId>
 			<version>1.9</version>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>com.l2fprod.common</groupId>

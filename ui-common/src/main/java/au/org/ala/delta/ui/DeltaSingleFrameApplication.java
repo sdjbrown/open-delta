@@ -21,9 +21,9 @@ import javax.swing.Action;
 
 import org.jdesktop.application.Application;
 import org.jdesktop.application.SingleFrameApplication;
-import org.jdesktop.application.utils.AppHelper;
-import org.jdesktop.application.utils.OSXAdapter;
-import org.jdesktop.application.utils.PlatformType;
+//import org.jdesktop.application.utils.AppHelper;
+//import org.jdesktop.application.utils.OSXAdapter;
+//import org.jdesktop.application.utils.PlatformType;
 
 public abstract class DeltaSingleFrameApplication extends SingleFrameApplication {
 
@@ -51,7 +51,8 @@ public abstract class DeltaSingleFrameApplication extends SingleFrameApplication
 	 * 
 	 */
 	public static boolean isMac() {
-		return PlatformType.OS_X.equals(AppHelper.getPlatform());
+		//return PlatformType.OS_X.equals(AppHelper.getPlatform());
+		return false;
 	}
 	
 	/** Action to invoke to display the about box */
@@ -70,7 +71,7 @@ public abstract class DeltaSingleFrameApplication extends SingleFrameApplication
 		_showAboutAction = aboutBoxAction;
 		 try {
 			 Method showAboutBox = DeltaSingleFrameApplication.class.getDeclaredMethod("showAboutBox", null);
-			 OSXAdapter.setAboutHandler(this, showAboutBox);
+			 //OSXAdapter.setAboutHandler(this, showAboutBox);
 		 }
 		 catch (Exception e) {
 			 e.printStackTrace();

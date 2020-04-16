@@ -49,7 +49,7 @@ public abstract class InternalFrameApplication extends DeltaSingleFrameApplicati
 	protected void createDesktop() {
 		_desktop = new JDesktopPane();
 		_desktop.setBackground(SystemColor.control);
-		getContext().getSessionStorage().putProperty(JInternalFrame.class, new InternalFrameProperty());
+		//getContext().getSessionStorage().putProperty(JInternalFrame.class, new InternalFrameProperty());
 	}
 
 	public void show(JInternalFrame frame) {

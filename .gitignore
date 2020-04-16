@@ -1,0 +1,12 @@
+###############################
+#Folders to ignore --- targets for builds
+
+common/target/
+dist/target/
+key/target/
+ui-common/target/
+confor/target/
+delfor/target/
+delta-editor/target/
+intkey/target/
+target/
