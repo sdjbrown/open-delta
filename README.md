@@ -1,13 +1,13 @@
 **Open DELTA**
 
-A port of the DELTA – DEscription Language for TAxonomy suite of applications into Java.
+A port of the DELTA – DEscription Language for TAxonomy suite of applications into Java. It includes icons from the Silk Icons set. This software is substantially derived from the DELTA software authored by M.J Dallwitz, T.A. Paine and E.J Zurcher. 
 
-This development is being funded by the Atlas of Living Australia. The Atlas of Living Australia is an initiative to improve access to essential information on Australia’s biodiversity by providing tools for researchers and others to access, combine and map data on Australian species. The Atlas project is a partnership between the Commonwealth Scientific and Industrial Research Organisation (CSIRO), the Australian natural history collections community and the Australian Government. For more information, go to http://www.ala.org.au.
+This version has additions and modifications contributed by Samuel Brown.
 
-This software is substantially derived from the DELTA software authored by M.J Dallwitz, T.A. Paine and E.J Zurcher.
+To build the package run `mvn clean package`.
 
-It includes icons from the Silk Icons set.
+The original port was funded by the Atlas of Living Australia. The Atlas of Living Australia is an initiative to improve access to essential information on Australia’s biodiversity by providing tools for researchers and others to access, combine and map data on Australian species. The Atlas project is a partnership between the Commonwealth Scientific and Industrial Research Organisation (CSIRO), the Australian natural history collections community and the Australian Government. For more information, go to http://www.ala.org.au. Downloads of the original Open DELTA are available from: http://downloads.ala.org.au/
 
-Version 1.0.2 now available!
 
-Downloads of Open DELTA are available from: http://downloads.ala.org.au/
+
+
